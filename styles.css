@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#navBarTop {
+    background-color: rgb(39, 39, 39);
+    overflow: hidden;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.btnNav {
+    margin: 5px 10px;
+    /*display: inline-block;
+    */
+    text-decoration: none;
+    font-family:'Lucida Sans',
+                'Lucida Sans Regular',
+                'Lucida Grande',
+                'Lucida Sans Unicode',
+                Geneva,
+                Verdana,
+                sans-serif;
+    color: white;
+}
+
+.btnNav:hover {
+    background-color: darkred;
+}
